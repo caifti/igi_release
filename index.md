@@ -1,10 +1,6 @@
 ---
 title: Hello, World!
 layout: default
-extra_css:
-  - css/stylesheet.css
-  - css/print.css
-  - css/pygment_trac.css
 ---
 
 # IGI Releases
