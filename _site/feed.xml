@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>IGI Releases & Updates Annoncements</title>
-		<description></description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-                <pubDate>Sun, 16 Jun 2013 22:05:34 +0200</pubDate>
-                <lastBuildDate>Sun, 16 Jun 2013 22:05:34 +0200</lastBuildDate>
+		<description>PIPPO</description>
+		<link>http://itaiangrid.github.io/igi_release</link>
+		<atom:link href="http://itaiangrid.github.io/igi_release/feed.xml" rel="self" type="application/rss+xml" />
+                <pubDate>Mon, 17 Jun 2013 12:28:46 +0200</pubDate>
+                <lastBuildDate>Mon, 17 Jun 2013 12:28:46 +0200</lastBuildDate>
 		
 			<item>
 				<title>Welcome to Jekyll!</title>
@@ -26,8 +26,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll's GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 14 Jun 2013 16:26:26 +0200</pubDate>
-				<link>http://localhost:4000/jekyll/update/2013/06/14/welcome-to-jekyll/</link>
-				<guid isPermaLink="true">http://localhost:4000/jekyll/update/2013/06/14/welcome-to-jekyll/</guid>
+				<link>http://itaiangrid.github.io/igi_release/jekyll/update/2013/06/14/welcome-to-jekyll/</link>
+				<guid isPermaLink="true">http://itaiangrid.github.io/igi_release/jekyll/update/2013/06/14/welcome-to-jekyll/</guid>
 			</item>
 		
 	</channel>
