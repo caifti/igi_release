@@ -5,6 +5,11 @@ layout: default
 
 # IGI Releases
 
-Proin eleifend libero accumsan felis luctus nec consectetur purus commodo.
+Welcome to IGI Release pages!
 
-Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
+You'll find here usefull information regarding INFN developed grid middleware software releases, roadmanps, documentation and support.
+
+## IGI Release content
+
+
+

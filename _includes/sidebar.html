@@ -1,9 +1,17 @@
 <div class="row-fluid">
-  <div class="span3">
-    <h3>Sidebar</h3>
-
-    <p>About IGI releases</p>
-    <a href="https://github.com/italiangrid"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="./img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-  </div>
+<!--  <div class="span3"> -->
+    <h3>News</h3>
+	<ul class="unstyled">
+          {% for post in site.posts limit:2 %}
+          <li>
+            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+            <p>{{ post.summary }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+    <h3>About IGI releases</h3>
+    <ul><li> <a href="https://wiki.italiangrid.it/twiki/bin/view/IGIRelease/"> Wiki Pages</a></ul>
+    <a href="https://github.com/italiangrid"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+<!--   </div> -->
 </div>
 
