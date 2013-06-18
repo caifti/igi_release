@@ -5,11 +5,10 @@ layout: default
 
 # IGI Releases
 
-Welcome to IGI Release pages!
+Welcome to IGI Releases pages!
 
-You'll find here usefull information regarding INFN developed grid middleware software releases, roadmanps, documentation and support.
+You'll find here usefull information regarding INFN developed grid middleware software releases, roadmaps, documentation and support.
 
-## IGI Release content
 
 <p> The IGI Release represents the collection of the grid middleware software developed by INFN: </p>
 * [CREAM products](https://wiki.italiangrid.it/twiki/bin/view/CREAM/WebHome "CREAM CE")
@@ -22,7 +21,13 @@ You'll find here usefull information regarding INFN developed grid middleware so
 * [StoRM](http://italiangrid.github.io/storm/index.html "StoRM")
 * [VOMS](https://github.com/italiangrid/voms/wiki "VOMS")
 * [WMS](https://wiki.italiangrid.it/twiki/bin/view/WMS/WebHome)       
- 
+
+
+## Release Repositories
+## Supported platforms
+## IGI Releases Content
+## Release Schedule
+
 
 
 
