@@ -8,13 +8,13 @@
         <meta name="description" content="{{ site.description }}">
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/bootstrap.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px;
       }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/bootstrap-responsive.css" rel="stylesheet">
 <!--    {% for css_name in page.extra_css %}
     <link rel="stylesheet" href="{{ css_name }}">
     {% endfor %} -->
@@ -29,15 +29,15 @@
      <div class="navbar navbar-inverse navbar-fixed-top">
        <div class="navbar-inner">
          <div class="container">
-           <a class="brand" href="index.html">{{ site.name }}</a>
+           <a class="brand" href="./index.html">{{ site.name }}</a>
            <div class="nav-collapse collapse pull-right">
              <ul class="nav">
-               <li class="nav-one" style="background: url('/img/blacktocat.png') #000000 no-repeat 95% 50%"><a href="https://github.com/italiangrid" style="display: block; position: relative; top: 10; padding: 10px 50px 10px 10px; font-weight: 700">View on GitHub</a>
-               <li><a href="download.html">Downloads</a></li>
-               <li><a href="documentation.html">Documentation</a></li>
-               <li><a href="support.html">Support</a></li>
-				<li><a href="feed.xml" rel="alternate" type="application/rss+xml">
-					<img src="img/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/>
+               <li class="nav-one" style="background: url('{{ site.url }}/img/blacktocat.png') #000000 no-repeat 95% 50%"><a href="https://github.com/italiangrid" style="display: block; position: relative; top: 10; padding: 10px 50px 10px 10px; font-weight: 700">View on GitHub</a>
+               <li><a href="./download.html">Downloads</a></li>
+               <li><a href="./documentation.html">Documentation</a></li>
+               <li><a href="./support.html">Support</a></li>
+				<li><a href="{{ site.url }}/feed.xml" rel="alternate" type="application/rss+xml">
+					<img src="{{ site.url }}/img/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/>
 </a>
 </span>               
              </ul>
