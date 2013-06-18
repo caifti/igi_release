@@ -11,5 +11,19 @@ You'll find here usefull information regarding INFN developed grid middleware so
 
 ## IGI Release content
 
+<p> The IGI Release represents the collection of the grid middleware software developed by INFN: </p>
+* [CREAM products](https://wiki.italiangrid.it/twiki/bin/view/CREAM/WebHome "CREAM CE")
+  * [BLAH](https://wiki.italiangrid.it/twiki/bin/view/CREAM/BlahUserGuide "BLAH") - **B**atch **L**ocal **A**scii **H**elper
+  * [CREAM CE](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorDocumentation "CREAM CE") - **C**omputing **R**esource **E**xecution **A**nd **M**anagement 
+  * CREAM <batch-system> modules for LSF, TORQUE, SLURM - 
+  * CREAM client
+  * Cluster
+* [DGAS](http://www.to.infn.it/grid/INFNGRID/TESTING/accounting/index.html "DGAS")
+* [StoRM](http://italiangrid.github.io/storm/index.html "StoRM")
+* [VOMS](https://github.com/italiangrid/voms/wiki "VOMS")
+* [WMS](https://wiki.italiangrid.it/twiki/bin/view/WMS/WebHome)       
+ 
+
+
 
 
