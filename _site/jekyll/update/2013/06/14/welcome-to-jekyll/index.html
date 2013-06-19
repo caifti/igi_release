@@ -68,9 +68,9 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 </div>
 
     </div>
-  <div class="span3">
-    <div class="row-fluid">
-<!--  <div class="span3"> -->
+    <div class="span3">
+     <div class="container">
+ <div class="row-fluid">
     <h3>News</h3>
 	<ul class="unstyled">
           
@@ -83,11 +83,20 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
     <h3>GitHub Repos</h3>
 
     <ul>
-    <li>CREAM  
+      <li>CREAM  
+        <a class="btn btn-info btn-small" href="#myModal" role="button" data-toggle="modal">see code-repos</a>
+    </ul>   
+
+    <h3>About IGI Release</h3>
+    <ul><li> <a href="https://wiki.italiangrid.it/twiki/bin/view/IGIRelease/"> Wiki Pages</a></ul>
+    <a href="https://github.com/italiangrid"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="http://caifti.github.io/igi_release/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+ </div>
+</div>
+
     <!-- Button to trigger modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="myModal" class="modal hide fade" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
       <h3 id="myModalLabel">CREAM GitHub repos</h3>
     </div>
     <div class="modal-body">
@@ -120,27 +129,16 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
         </ul>
     </div>
     <div class="modal-footer">
-      <button class="btn btn-primary" data-dismiss="modal">Close</button>
+      <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
     </div>
 </div>
+ 
 
-    <div class="bs-docs-example" style="padding-bottom: 24px;">
-      <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-small">see code-repos</a>
-    </div>    
-        </ul>   
-
-    <h3>About IGI Release</h3>
-    <ul><li> <a href="https://wiki.italiangrid.it/twiki/bin/view/IGIRelease/"> Wiki Pages</a></ul>
-    <a href="https://github.com/italiangrid"><img style="position: absolute; top: 40px; right: 0; border: 0;" src="http://caifti.github.io/igi_release/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-<!--   </div> -->
-</div>
-
-
-  </div>
-</div>
+    </div>
       
     </div>
 
   </body>
 </html>
-
+  </div> <!-- end of container -->
+</div>

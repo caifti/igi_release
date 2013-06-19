@@ -5,8 +5,8 @@
 		<description>IGI Releases & Updates Announcements pages</description>
 		<link>http://caifti.github.io/igi_release</link>
 		<atom:link href="http://caifti.github.io/igi_release/feed.xml" rel="self" type="application/rss+xml" />
-                <pubDate>Wed, 19 Jun 2013 16:34:39 +0200</pubDate>
-                <lastBuildDate>Wed, 19 Jun 2013 16:34:39 +0200</lastBuildDate>
+                <pubDate>Wed, 19 Jun 2013 17:25:34 +0200</pubDate>
+                <lastBuildDate>Wed, 19 Jun 2013 17:25:34 +0200</lastBuildDate>
 		
 			<item>
 				<title>Welcome to Jekyll!</title>
