@@ -9,12 +9,21 @@ Welcome to IGI Releases pages!
 
 You'll find here usefull information regarding INFN developed grid middleware software releases, roadmaps, documentation and support.
 
+* [Introduction](#introduction)
+* [Release Repositories](#releaserepos)
+* [Supported platforms](#supportedplatf)
+* [Release Content](#relcontent)
+* [Release Schedule](#relsched)
+  * [Extended Attribute support](#easupport)
+
+<a name="introduction">&nbsp;</a>
+## Introduction
 
 <p> The IGI Release represents the collection of the grid middleware software developed by INFN: </p>
 * [CREAM products](https://wiki.italiangrid.it/twiki/bin/view/CREAM/WebHome "CREAM CE")
   * [BLAH](https://wiki.italiangrid.it/twiki/bin/view/CREAM/BlahUserGuide "BLAH") - **B**atch **L**ocal **A**scii **H**elper
   * [CREAM CE](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorDocumentation "CREAM CE") - **C**omputing **R**esource **E**xecution **A**nd **M**anagement 
-  * CREAM <batch-system> modules for LSF, TORQUE, SLURM
+  * [CREAM <batch-system> modules](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_Batch_system_integration "CREAM <batch> modules") for [LSF](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_2_LSF "LSF"), [TORQUE](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_1_Torque "TORQUE"), [SLURM](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_3_Grid_Engine "SLURM")
   * [CREAM clients](https://wiki.italiangrid.it/twiki/bin/view/CREAM/UserDocumentation "CREAM clients") 
   * [Cluster](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI3#1_2_1_CREAM_CE_and_gLite_cluster "Cluster")
 * [DGAS](http://www.to.infn.it/grid/INFNGRID/TESTING/accounting/index.html "DGAS")
@@ -22,10 +31,17 @@ You'll find here usefull information regarding INFN developed grid middleware so
 * [VOMS](https://github.com/italiangrid/voms/wiki "VOMS")
 * [WMS](https://wiki.italiangrid.it/twiki/bin/view/WMS/WebHome)       
 
-
+<a name="releaserepos">&nbsp;</a>
 ## Release Repositories
+
+
+<a name="supportedplatf">&nbsp;</a>
 ## Supported platforms
+
+<a name="relcontent">&nbsp;</a>
 ## IGI Releases Content
+
+<a name="relsched">&nbsp;</a>
 ## Release Schedule
 
 
