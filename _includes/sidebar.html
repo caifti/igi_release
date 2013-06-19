@@ -6,15 +6,14 @@
           <li>
             <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
             <p>{{ post.summary }}</p>
-          </li>
+          </li>x`
           {% endfor %}
     </ul>
     <h3>GitHub Repos</h3>
 
     <ul>
     <li>CREAM
-      <a href="" onclick="show('pippo');">show list</a>
-        <div id="pippo" style="display:none">
+        <span class="truncated">
         <ul><li><a href="https://github.com/italiangrid/cream-utils">cream-utils</a>
           <li><a href="https://github.com/italiangrid/cemonitor">cemonitor</a>
           <li><a href="https://github.com/italiangrid/info-dynamic-scheduler-pbs">cream-utils</a>
@@ -41,9 +40,8 @@
           <li><a href="https://github.com/italiangrid/info-dynamic-scheduler-ge">info-dynamic-scheduler-ge</a>
           <li><a href="https://github.com/italiangrid/cream-nagios">cream-nagios</a>
         </ul>
-        </div> 
+        </span> 
     </ul>   
-
 
     <h3>About IGI Release</h3>
     <ul><li> <a href="https://wiki.italiangrid.it/twiki/bin/view/IGIRelease/"> Wiki Pages</a></ul>
