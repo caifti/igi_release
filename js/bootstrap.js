@@ -27,11 +27,8 @@
    * ======================================================= */
 
   $(function () {
-
     $.support.transition = (function () {
-
       var transitionEnd = (function () {
-
         var el = document.createElement('bootstrap')
           , transEndEventNames = {
                'WebkitTransition' : 'webkitTransitionEnd'
@@ -46,7 +43,6 @@
             return transEndEventNames[name]
           }
         }
-
       }())
 
       return transitionEnd && {
@@ -57,7 +53,32 @@
 
   })
 
-}(window.jQuery);/* ==========================================================
+}(window.jQuery);
+
+/* ===================================================
+ * bootstrap-new.js v2.3.2
+ * ========================================================== */
+
+
+!function ($) {
+
+  "use strict"; // jshint ;_;
+
+  /* 
+   * ======================================================= */
+
+  $('.myButton').width(
+      Math.max.apply( 
+          Math, 
+          $('.myButton').map(function(){
+              return $(this).outerWidth();
+          }).get()
+      )
+  )
+
+}(window.jQuery);
+
+/* ==========================================================
  * bootstrap-alert.js v2.3.2
  * http://twitter.github.com/bootstrap/javascript.html#alerts
  * ==========================================================
