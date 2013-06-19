@@ -86,9 +86,16 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
     <h3>GitHub Repos</h3>
 
     <ul>
-    <li>CREAM
-        <span class="truncated">
-        <ul><li><a href="https://github.com/italiangrid/cream-utils">cream-utils</a>
+    <li>CREAM  
+    <!-- Button to trigger modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3 id="myModalLabel">CREAM GitHub repos</h3>
+    </div>
+    <div class="modal-body">
+          <ul>
+          <li><a href="https://github.com/italiangrid/cream-utils">cream-utils</a>
           <li><a href="https://github.com/italiangrid/cemonitor">cemonitor</a>
           <li><a href="https://github.com/italiangrid/info-dynamic-scheduler-pbs">cream-utils</a>
           <li><a href="https://github.com/italiangrid/cream">cream</a>
@@ -114,8 +121,15 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
           <li><a href="https://github.com/italiangrid/info-dynamic-scheduler-ge">info-dynamic-scheduler-ge</a>
           <li><a href="https://github.com/italiangrid/cream-nagios">cream-nagios</a>
         </ul>
-        </span> 
-    </ul>   
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary" data-dismiss="modal">Close</button>
+    </div>
+    <div class="bs-docs-example" style="padding-bottom: 24px;">
+      <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-large">see code-repos</a>
+    </div>    
+</div>
+        </ul>   
 
     <h3>About IGI Release</h3>
     <ul><li> <a href="https://wiki.italiangrid.it/twiki/bin/view/IGIRelease/"> Wiki Pages</a></ul>
