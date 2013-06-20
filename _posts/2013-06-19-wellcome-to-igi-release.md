@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to IGI Release Updates pages!"
+title:  "Welcome to IGI Releases & Updates Announcements!"
 date:   2013-06-19 23:25:26
 categories: IGI update
 ---

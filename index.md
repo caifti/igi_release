@@ -9,7 +9,7 @@ Welcome to IGI Releases pages!
 
 You'll find here usefull information regarding INFN developed grid middleware software releases, roadmaps, documentation and support.
 
-* [Introduction](#introduction)
+* [IGI Release Portfolio](#portfolio)
 * [Release Repositories](#releaserepos)
 * [Supported platforms](#supportedplatf)
 * [Release Content](#relcontent)
@@ -17,12 +17,12 @@ You'll find here usefull information regarding INFN developed grid middleware so
   * [Extended Attribute support](#easupport)
 
 <a name="introduction">&nbsp;</a>
-## Introduction
+## IGI Release Portfolio
 
 <p> The IGI Release represents the collection of the grid middleware software developed by INFN: </p>
 * [CREAM products](https://wiki.italiangrid.it/twiki/bin/view/CREAM/WebHome "CREAM CE")
-  * [BLAH](https://wiki.italiangrid.it/twiki/bin/view/CREAM/BlahUserGuide "BLAH") - **B**atch **L**ocal **A**scii **H**elper
-  * [CREAM CE](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorDocumentation "CREAM CE") - **C**omputing **R**esource **E**xecution **A**nd **M**anagement 
+  * [BLAH](https://wiki.italiangrid.it/twiki/bin/view/CREAM/BlahUserGuide "BLAH") - **B**atch **L**ocal **A**scii **H**elper Service
+  * [CREAM CE](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorDocumentation "CREAM CE") - **C**omputing **R**esource **E**xecution **A**nd **M**anagement Service
   * [CREAM <batch-system> modules](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_Batch_system_integration "CREAM <batch> modules") for [LSF](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_2_LSF "LSF"), [TORQUE](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_1_Torque "TORQUE"), [SLURM](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI2#1_6_3_Grid_Engine "SLURM")
   * [CREAM clients](https://wiki.italiangrid.it/twiki/bin/view/CREAM/UserDocumentation "CREAM clients") 
   * [Cluster](https://wiki.italiangrid.it/twiki/bin/view/CREAM/SystemAdministratorGuideForEMI3#1_2_1_CREAM_CE_and_gLite_cluster "Cluster")
