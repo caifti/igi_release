@@ -12,8 +12,8 @@ You'll find here usefull information regarding INFN developed grid middleware so
 * [IGI Release Portfolio](#portfolio)
 * [Release Schedule](#relsched)
 * [Supported platforms](#supportedplatf)
+   * [Supported packaging formats](#relcontent)
 * [Release Repositories](#releaserepos)
-* [Release Content](#relcontent)
 
 <a name="introduction">&nbsp;</a>
 ## IGI Release Portfolio
@@ -43,11 +43,27 @@ You'll find here usefull information regarding INFN developed grid middleware so
 <a name="supportedplatf">&nbsp;</a>
 ## Supported platforms
 
+ * IGI releases are/will be supported for the following platforms:
+    * all components:
+       * Scientific Linux 5.x with EPEL 5 and SL 6.x with EPEL 6,  x86_64
+       * Deb6, amd64
+    * clients/libraries/API - in addition to the above:
+       * Scientific Linux 5.x/EPEL5 and 6.x/EPEL6, i386/i686
+       * Deb6, i386
+
+<a name="relcontent">&nbsp;</a>
+### Supported artifacts & packaging formats
+ * binary packages - executable packages
+   * SL5.X/SL6.X - *.rpm
+   * Deb6 - *.deb
+ * source packages - package files that contain all of the necessary files to compile/build the respective piece of software
+   * SL5.x/Sl6.X - *.src.rpm
+   * Deb6 - *.dsc, *.debian.tar.gz, + *.tar.gz
+
 <a name="releaserepos">&nbsp;</a>
 ## Release Repositories
 
-<a name="relcontent">&nbsp;</a>
-## IGI Releases Content
+<h3><font style="color="#FC0813"">Coming soon!</font></h3>
 
 
 
