@@ -10,11 +10,10 @@ Welcome to IGI Releases pages!
 You'll find here usefull information regarding INFN developed grid middleware software releases, roadmaps, documentation and support.
 
 * [IGI Release Portfolio](#portfolio)
-* [Release Repositories](#releaserepos)
-* [Supported platforms](#supportedplatf)
-* [Release Content](#relcontent)
 * [Release Schedule](#relsched)
-  * [Extended Attribute support](#easupport)
+* [Supported platforms](#supportedplatf)
+* [Release Repositories](#releaserepos)
+* [Release Content](#relcontent)
 
 <a name="introduction">&nbsp;</a>
 ## IGI Release Portfolio
@@ -31,19 +30,24 @@ You'll find here usefull information regarding INFN developed grid middleware so
 * [VOMS](https://github.com/italiangrid/voms/wiki "VOMS") - **V**irtual **O**rganization **M**embership **S**ervice
 * [WMS](https://wiki.italiangrid.it/twiki/bin/view/WMS/WebHome "WMS") - **W**orkload **M**anagement **S**ystem       
 
-<a name="releaserepos">&nbsp;</a>
-## Release Repositories
+<a name="relsched">&nbsp;</a>
+## Release Schedule
+### Time-based releases
+ * **Major releases** - at the “distribution level” every 6 months a Major release is  “cut” 
+ * **Minor/Revision releases** - monthly updates are pushed to production repositories
 
+### Support Model
+ * in a Major Release for each component or service only the latest revision released is supported.
+ * for each component/service a (major) release is supported for 6 months after the release of the respective component’s/service next major version.
 
 <a name="supportedplatf">&nbsp;</a>
 ## Supported platforms
 
+<a name="releaserepos">&nbsp;</a>
+## Release Repositories
+
 <a name="relcontent">&nbsp;</a>
 ## IGI Releases Content
-
-<a name="relsched">&nbsp;</a>
-## Release Schedule
-
 
 
 
